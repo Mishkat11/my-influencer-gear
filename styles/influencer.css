@@ -53,10 +53,7 @@ font-weight: 700;
     justify-content: space-around;
 
   }
-  .banner-content{
-   
-
-  }
+  
   .banner-title{
     color: #3A3A3A;
 font-size: 52px;
@@ -75,9 +72,22 @@ font-weight: 700;
    /* position: relative;
    margin-top: 40px; */
    max-width:  100%;
-   
-
   }
+  .sponsors{
+    margin-top: 69px;
+    /* display: flex;
+    justify-content: space-evenly; */
+  }
+.sponsor-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
   @media screen and (max-width:450px) {
     nav{
         flex-direction: column;
@@ -95,5 +105,9 @@ font-weight: 700;
     .banner-content{text-align: center;}
    .banner-title{
     font-size: 28px;
+   }
+   .sponsor-container{
+    flex-wrap: wrap;
+    gap: 20px;
    }
   }
